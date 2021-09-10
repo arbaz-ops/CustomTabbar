@@ -15,6 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+       
+        UITabBar.appearance().barTintColor = .black
+        UITabBar.appearance().backgroundColor = .black
+        
+        UITabBar.appearance().layer.cornerRadius = 32
+        UITabBar.appearance().layer.masksToBounds = true
+        UITabBar.appearance().layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
+        
         return true
     }
 

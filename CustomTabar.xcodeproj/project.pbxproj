@@ -11,9 +11,9 @@
 		04C0723526C50A2C000CA955 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0723426C50A2C000CA955 /* SceneDelegate.swift */; };
 		04C0723726C50A2C000CA955 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0723626C50A2C000CA955 /* ViewController.swift */; };
 		04C0723A26C50A2C000CA955 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C0723826C50A2C000CA955 /* Main.storyboard */; };
-		04C0723D26C50A2C000CA955 /* CustomTabar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04C0723B26C50A2C000CA955 /* CustomTabar.xcdatamodeld */; };
 		04C0723F26C50A2E000CA955 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C0723E26C50A2E000CA955 /* Assets.xcassets */; };
 		04C0724226C50A2E000CA955 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C0724026C50A2E000CA955 /* LaunchScreen.storyboard */; };
+		04C0724A26C50B38000CA955 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0724926C50B38000CA955 /* CustomTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +22,10 @@
 		04C0723426C50A2C000CA955 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		04C0723626C50A2C000CA955 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04C0723926C50A2C000CA955 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		04C0723C26C50A2C000CA955 /* CustomTabar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CustomTabar.xcdatamodel; sourceTree = "<group>"; };
 		04C0723E26C50A2E000CA955 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C0724126C50A2E000CA955 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04C0724326C50A2E000CA955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C0724926C50B38000CA955 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 				04C0723E26C50A2E000CA955 /* Assets.xcassets */,
 				04C0724026C50A2E000CA955 /* LaunchScreen.storyboard */,
 				04C0724326C50A2E000CA955 /* Info.plist */,
-				04C0723B26C50A2C000CA955 /* CustomTabar.xcdatamodeld */,
+				04C0724926C50B38000CA955 /* CustomTabBarController.swift */,
 			);
 			path = CustomTabar;
 			sourceTree = "<group>";
@@ -141,7 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04C0723726C50A2C000CA955 /* ViewController.swift in Sources */,
-				04C0723D26C50A2C000CA955 /* CustomTabar.xcdatamodeld in Sources */,
+				04C0724A26C50B38000CA955 /* CustomTabBarController.swift in Sources */,
 				04C0723326C50A2C000CA955 /* AppDelegate.swift in Sources */,
 				04C0723526C50A2C000CA955 /* SceneDelegate.swift in Sources */,
 			);
@@ -343,19 +343,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		04C0723B26C50A2C000CA955 /* CustomTabar.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				04C0723C26C50A2C000CA955 /* CustomTabar.xcdatamodel */,
-			);
-			currentVersion = 04C0723C26C50A2C000CA955 /* CustomTabar.xcdatamodel */;
-			path = CustomTabar.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 04C0722726C50A2C000CA955 /* Project object */;
 }
